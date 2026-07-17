@@ -4,5 +4,8 @@ cmds = [
     "/usr/local/bin/composer install --no-dev --optimize-autoloader --no-interaction"
 ]
 
+[phases.build]
+cmds = []
+
 [start]
 cmd = "bash startup.sh"
